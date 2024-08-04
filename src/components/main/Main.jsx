@@ -22,7 +22,11 @@ const Main = () => {
 
             <div className="icons">
                 <div className="tooltip">
+<<<<<<< HEAD
                 <a href="https://github.com/maheshwagh2003" target='_blank'><img src={assets.github} alt="Github" /></a>
+=======
+                        <a href="https://github.com/maheshwagh2003" target='_blank'><img src={assets.github} alt="Github" /></a>
+>>>>>>> 24d5f95f2956693f0fd524dd861a25959add72e7
                         <span className="tooltip-text">Github</span>
                 </div>
                 <div className="tooltip">
@@ -30,9 +34,19 @@ const Main = () => {
                         <span className="tooltip-text">Instagram</span>
                 </div>
                 <div className="tooltip">
+<<<<<<< HEAD
                      <a href="https://www.linkedin.com/in/mahesh-wagh2003/" target='_blank'><img src={assets.linkedin} alt="LinkedIn" /></a>
                         <span className="tooltip-text">LinkedIn</span>
                 </div>
+=======
+                        <a href="https://www.linkedin.com/in/mahesh-wagh2003/" target='_blank'><img src={assets.linkedin} alt="LinkedIn" /></a>
+                        <span className="tooltip-text">LinkedIn</span>
+                </div>
+            
+                
+                
+                
+>>>>>>> 24d5f95f2956693f0fd524dd861a25959add72e7
                 <div className="tooltip">
                         <img src={assets.user_icon} alt="User Icon" />
                         <span className="tooltip-text">Dev: MAHESH WAGH</span>

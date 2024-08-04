@@ -21,9 +21,22 @@ const Main = () => {
             <p>Gemini-Clone</p>
 
             <div className="icons">
-                <a href="https://github.com/maheshwagh2003" target='_blank'><img src={assets.github} alt="" /></a>
-                <a href="https://www.instagram.com/mahesh.wagh2k3/" target='_blank'><img src={assets.instagram} alt="" /></a>
-                <a href="https://www.linkedin.com/in/mahesh-wagh2003/" target='_blank'><img src={assets.linkedin} alt="" /></a>
+                <div className="tooltip">
+                        <a href="https://github.com/maheshwagh2003" target='_blank'><img src={assets.github} alt="Github" /></a>
+                        <span className="tooltip-text">Github</span>
+                </div>
+                <div className="tooltip">
+                        <a href="https://www.instagram.com/mahesh.wagh2k3/" target='_blank'><img src={assets.instagram} alt="Instagram" /></a>
+                        <span className="tooltip-text">Instagram</span>
+                </div>
+                <div className="tooltip">
+                        <a href="https://www.linkedin.com/in/mahesh-wagh2003/" target='_blank'><img src={assets.linkedin} alt="LinkedIn" /></a>
+                        <span className="tooltip-text">LinkedIn</span>
+                </div>
+            
+                
+                
+                
                 <div className="tooltip">
                         <img src={assets.user_icon} alt="User Icon" />
                         <span className="tooltip-text">Dev: MAHESH WAGH</span>

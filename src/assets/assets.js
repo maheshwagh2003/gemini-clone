@@ -17,6 +17,9 @@ import google from './google.png'
 import microsoft from './microsoft.png'
 import apple from './apple.png'
 import tesla from './tesla.png'
+import github from './github.png'
+import instagram from './instagram.png'
+import linkedin from './linkedin.png'
 
 export const assets = {
     history_icon,
@@ -37,5 +40,8 @@ export const assets = {
     apple,
     microsoft,
     google,
-    tesla
+    tesla,
+    github,
+    instagram,
+    linkedin
 }

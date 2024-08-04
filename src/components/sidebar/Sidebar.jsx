@@ -53,6 +53,7 @@ const Sidebar = () => {
                 {extended?<p>Settings</p>:null}
 
             </div>
+            
         </div>
     </div>
   )

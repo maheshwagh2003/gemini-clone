@@ -19,7 +19,16 @@ const Main = () => {
     <div className="main">
         <div className="nav">
             <p>Gemini-Clone</p>
-            <img src={assets.user_icon} alt="" />
+
+            <div className="icons">
+                <a href="https://github.com/maheshwagh2003" target='_blank'><img src={assets.github} alt="" /></a>
+                <a href="https://www.instagram.com/mahesh.wagh2k3/" target='_blank'><img src={assets.instagram} alt="" /></a>
+                <a href="https://www.linkedin.com/in/mahesh-wagh2003/" target='_blank'><img src={assets.linkedin} alt="" /></a>
+                <div className="tooltip">
+                        <img src={assets.user_icon} alt="User Icon" />
+                        <span className="tooltip-text">Dev: MAHESH WAGH</span>
+                </div>
+            </div>
         </div>
 
         

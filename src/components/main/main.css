@@ -44,7 +44,7 @@
     position: absolute;
     z-index: 1;
     top: 125%; /* Position the tooltip below the icon */
-    right: 0; /* Align tooltip to the left */
+    right: ; /* Align tooltip to the left */
     margin-left: 0; /* Remove margin to align the tooltip with the icon */
     opacity: 0;
     transition: opacity 0.3s;
@@ -209,7 +209,10 @@
     border-radius: 4px;
     border: none;
     background-color: #f6f7f8;
-    background: linear-gradient(to right, #9ed7ff,#ffffff,#9ed7ff);
+    background: linear-gradient(to right, #FF671F,#ffffff,#046A38);
+    filter: blur(0.1px); /* Apply blur to create a blended effect */
+    /* Optional: Add a backdrop filter for additional blending effects */
+    backdrop-filter: blur(0.1px);
     background-size: 800px 50px;
     height: 20px;
 }

@@ -18,7 +18,7 @@ const Main = () => {
   return (
     <div className="main">
         <div className="nav">
-            <p>Gemini-Clone</p>
+            <p>Gemini-Clone By Mahesh Wagh</p>
 
             <div className="icons">
                 <div className="tooltip">
